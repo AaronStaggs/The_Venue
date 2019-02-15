@@ -13,13 +13,14 @@ class tickets extends Component {
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
         ],
         linkto:['http://sales/b','http://sales/m','http://sales/s'],
-        delay:[500,0,500]
+        delay:[500,0,500],
+        slide:['left', 'bottom', 'right']
 
     }
 
     showBoxes = () => (
        this.state.prices.map((box,i) => (
-        <Slide left delay={this.state.delay[i]} key={i}>
+        <Slide slide={this.state.slide[i]} delay={this.state.delay[i]} key={i}>
         <div className="pricing_item">
             <div className="pricing_inner_wrapper">
                 <div className="pricing_title">

@@ -6,6 +6,7 @@ import VenueNFO from './Components/VenueNFO';
 import Highlights from './Components/Highlights'; 
 import Tickets from './Components/Prices/tickets';
 
+
 class App extends Component {
   render() {
     return (

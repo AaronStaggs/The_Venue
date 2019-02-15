@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^1.4.3",
     "@material-ui/icons": "^2.0.2",
+    "google-map-react": "^1.1.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-reveal": "^1.2.2",

@@ -12,7 +12,7 @@ const Featured = () => {
             <div className="artist_name">
             
                 <div className="wrapper">
-                    Ariana Grande
+                    Mumford and Sons
                 </div>
         
             </div>
